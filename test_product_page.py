@@ -1,9 +1,9 @@
 import pytest
 import time
 
-from .pages.basket_page import BasketPage
-from .pages.product_page import ProductPage
-from .pages.login_page import LoginPage
+from pages.basket_page import BasketPage
+from pages.product_page import ProductPage
+from pages.login_page import LoginPage
 
 
 book_95_url = "http://selenium1py.pythonanywhere.com/catalogue/the-city-and-the-stars_95/"
