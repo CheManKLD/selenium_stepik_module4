@@ -31,7 +31,8 @@ class ProductPageLocators():
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, "#messages div")
     PRODUCT_NAME = (By.CSS_SELECTOR, ".product_main h1")
     SUCCESS_MESSAGE_ADD_PRODUCT_TO_BASKET = (By.CSS_SELECTOR, "#messages > div:nth-child(1) > div")
-    PRODUCT_NAME_IN_SUCCESS_MESSAGE_AFTER_ADD_TO_BASKET = (By.CSS_SELECTOR, "#messages > div:nth-child(1) > div > strong")
+    PRODUCT_NAME_IN_SUCCESS_MESSAGE_AFTER_ADD_TO_BASKET = (
+        By.CSS_SELECTOR, "#messages > div:nth-child(1) > div > strong")
     PRODUCT_PRICE = (By.CSS_SELECTOR, ".product_main .price_color")
     SUCCESS_MESSAGE_BASKET_TOTAL = (By.CSS_SELECTOR, "#messages > div.alert > div > p:nth-child(1)")
     PRODUCT_PRICE_IN_SUCCESS_MESSAGE_AFTER_ADD_TO_BASKET = (By.CSS_SELECTOR, ".alertinner p strong")
